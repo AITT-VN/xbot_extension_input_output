@@ -1,0 +1,13 @@
+{
+    "name": "INPUT/OUTPUT",
+    "description": "Mục mở rộng sử dụng các module Input/Output",
+    "libs": [
+    ],
+    "blocks": [
+        "definition.js"
+    ],
+    "toolbox": "toolbox.xml",
+    "languages": {
+    },
+    "poster": "poster.png"
+}
