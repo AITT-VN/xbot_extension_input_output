@@ -1,6 +1,6 @@
 {
-    "name": "INPUT/OUTPUT",
-    "description": "Mục mở rộng sử dụng các module Input/Output",
+    "name": "Module Input / Output",
+    "description": "Mục mở rộng của xbot cho các module input/output",
     "libs": [
     ],
     "blocks": [
