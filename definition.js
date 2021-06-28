@@ -290,6 +290,7 @@ Blockly.Python["xbot_input_button"] = function (block) {
 Blockly.Python["xbot_mini_fan"] = function (block) {
   var port = block.getFieldValue("port");
   var speed = Blockly.Python.valueToCode(block, 'speed', Blockly.Python.ORDER_ATOMIC);
+  Blockly.Python.definitions_['import_mini_fan'] = 'from mini_fan import mini_fan';
   // TODO: Assemble Python into code variable.
   var code = 'mini_fan.speed(' + port + ', ' + speed + ')\n'
     return code;
