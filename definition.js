@@ -55,7 +55,7 @@ Blockly.Blocks["xbot_input_button"] = {
     this.jsonInit({
       colour: "#52BCEC",
       tooltip: "",
-      message0: "%3 nút nhấn cổng %1 chân %2 được nhấn",
+      message0: "%3 nút nhấn cổng %1 pin %2 được nhấn",
       args0: [
         {
           type: "field_dropdown",
