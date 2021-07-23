@@ -1,5 +1,5 @@
 <xml xmlns="https://developers.google.com/blockly/xml" id="toolbox" style="display: none">
-  <category name="I/O" colour="#52BCEC" icon="exchange-alt">
+  <category name="I/O" colour="#ff9933" icon="exchange-alt">
     <block type="xbot_input_led" />
     <block type="xbot_input_button" />
     <block type="xbot_mini_fan">
