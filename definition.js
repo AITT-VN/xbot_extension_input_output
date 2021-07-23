@@ -3,7 +3,7 @@ Blockly.Blocks["xbot_input_led"] = {
     this.jsonInit({
       colour: "#ff9933",
       tooltip: "",
-      message0: "%4 %1 đèn xe cổng %2 pin %3",
+      message0: "%4 %1 đèn led cổng %2 pin %3",
       args0: [
         {
           type: "field_dropdown",
