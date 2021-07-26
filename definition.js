@@ -1,7 +1,7 @@
 Blockly.Blocks["xbot_input_led"] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff9933",
+      colour: "#00A06B",
       tooltip: "",
       message0: "%4 %1 đèn led cổng %2 pin %3",
       args0: [
@@ -53,7 +53,7 @@ Blockly.Blocks["xbot_input_led"] = {
 Blockly.Blocks["xbot_input_button"] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff9933",
+      colour: "#00A06B",
       tooltip: "",
       message0: "%3 nút nhấn cổng %1 pin %2 được nhấn",
       args0: [
@@ -95,7 +95,7 @@ Blockly.Blocks["xbot_input_button"] = {
 Blockly.Blocks['xbot_mini_fan'] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff9933",
+      colour: "#00A06B",
       tooltip: "",
       message0: "%4 %1 mini fan cổng %2 pin %3",
       args0: [
@@ -147,7 +147,7 @@ Blockly.Blocks['xbot_mini_fan'] = {
 Blockly.Blocks["xbot_input_joystick"] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff9933",
+      colour: "#00A06B",
       tooltip: "",
       message0: "%3 joystick cổng %1 đọc giá trị %2",
       args0: [
@@ -186,7 +186,7 @@ Blockly.Blocks["xbot_input_joystick"] = {
 Blockly.Blocks["xbot_input_rotary_analog"] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff9933",
+      colour: "#00A06B",
       tooltip: "",
       message0: "%3 biến trở xoay cổng %1 pin %2 đọc giá trị",
       args0: [
@@ -225,7 +225,7 @@ Blockly.Blocks["xbot_input_rotary_analog"] = {
 Blockly.Blocks["xbot_input_relay"] = {
   init: function () {
     this.jsonInit({
-      colour: "#ff9933",
+      colour: "#00A06B",
       tooltip: "",
       message0: "%4 %1 relay cổng %2 pin %3",
       args0: [
