@@ -281,8 +281,7 @@ Blockly.Python["xbot_input_led"] = function (block) {
   var pin = block.getFieldValue("pin");
   var stat = block.getFieldValue("stat");
   // TODO: Assemble Python into code variable.
-  var code;
-    code = "pin" + port + pin + ".write_digital(" + stat + ")";
+  var code = "pin" + port + pin + ".write_digital(" + stat + ")\n";
   return code;
 };
 
@@ -299,8 +298,7 @@ Blockly.Python["xbot_mini_fan"] = function (block) {
   var pin = block.getFieldValue("pin");
   var stat = block.getFieldValue("stat");
   // TODO: Assemble Python into code variable.
-  var code;
-    code = "pin" + port + pin + ".write_digital(" + stat + ")";
+  var code = "pin" + port + pin + ".write_digital(" + stat + ")\n";
   return code;
 };
 
